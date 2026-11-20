@@ -230,3 +230,6 @@ h2 { font-size: clamp(1.6rem, 2.5vw, 2.15rem); font-weight: 800; margin-bottom: 
   .mechanism-grid { grid-template-columns: 1fr; }
   .hero-actions .button { width: 100%; }
 }
+.benefits-grid{list-style:none;margin:32px auto 0;padding:0;max-width:1000px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.benefits-grid li{background:#fff;border:1px solid #e3ebf3;border-radius:16px;padding:20px 20px 20px 54px;position:relative;font-size:15px;line-height:1.5;color:#1f2d3d}
+.benefits-grid li::before{content:"✓";position:absolute;left:18px;top:18px;width:24px;height:24px;border-radius:50%;background:#123B65;color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center}
