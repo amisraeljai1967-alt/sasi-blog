@@ -10,6 +10,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<style>
+.procedures-box{background:#fff;border:1px solid #cfe0ee;border-top:5px solid var(--blue);border-radius:var(--radius);padding:24px;box-shadow:0 14px 38px #123b6518}
+.procedure-featured{display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:linear-gradient(135deg,#123B65 0%,#2D82C7 100%);border-radius:14px;padding:20px 22px;margin-bottom:18px}
+.procedure-tag{background:#fff;color:var(--blue);font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:6px 11px;border-radius:7px}
+.procedure-featured strong{display:block;font-size:24px;color:#fff}
+.procedure-featured small{display:block;font-size:14px;color:#e3f0fb}
+.procedure-items{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.procedure-items li{background:#eef5fb;border-left:4px solid var(--blue);border-radius:10px;padding:14px 16px}
+.procedure-items strong{display:block;font-size:17px;color:var(--navy)}
+.procedure-items small{display:block;font-size:14px;color:#3d566e}
+.procedures-section .disclaimer{background:#fff;border-left:4px solid var(--blue);border-radius:8px;padding:12px 16px;margin:18px 0 0;font-size:14px;font-weight:500;color:#2c4660}
+.procedures-cta{margin-top:20px}
+@media (max-width:760px){.procedures-box{padding:16px}.procedure-items{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
 <div class="announcement">Información médica para decisiones mejor informadas</div>
@@ -211,15 +225,22 @@
   <h2>Procedimientos bariátricos que puedes realizarte con nosotros</h2>
   <p>Conoce las opciones disponibles y la importancia de una valoración especializada.</p>
 </div>
-<div class="procedure-list">
-<a href="https://amisraeljai1967-alt.github.io/rumbaut-sasi/" target="_blank" rel="noopener"><span>01</span><strong>SASI</strong><small>Innovación bariátrica</small><b></b></a>
-<a href="https://amisraeljai1967-alt.github.io/rumbaut-sasi/" target="_blank" rel="noopener"><span>02</span><strong>Bariclip</strong><small>Procedimiento bariátrico</small><b></b></a>
-<a href="https://amisraeljai1967-alt.github.io/rumbaut-sasi/" target="_blank" rel="noopener"><span>03</span><strong>Bypass Gástrico</strong><small>Cirugía bariátrica</small><b></b></a>
-<a href="https://amisraeljai1967-alt.github.io/rumbaut-sasi/" target="_blank" rel="noopener"><span>04</span><strong>Manga Gástrica</strong><small>Cirugía bariátrica</small><b></b></a>
-<a href="https://amisraeljai1967-alt.github.io/rumbaut-sasi/" target="_blank" rel="noopener"><span>05</span><strong>Balón Gástrico</strong><small>Alternativa endoscópica</small><b></b></a>
-<a href="https://amisraeljai1967-alt.github.io/rumbaut-sasi/" target="_blank" rel="noopener"><span>06</span><strong>Cirugía de Revisión</strong><small>Evaluación especializada</small><b></b></a>
+<div class="procedures-box">
+<div class="procedure-featured">
+<span class="procedure-tag">Tema de este blog</span>
+<div><strong>SASI</strong><small>Innovación bariátrica · bypass ileal en manga con anastomosis única</small></div>
+</div>
+<ul class="procedure-items">
+<li><strong>Bariclip</strong><small>Procedimiento bariátrico</small></li>
+<li><strong>Bypass Gástrico</strong><small>Cirugía bariátrica</small></li>
+<li><strong>Manga Gástrica</strong><small>Cirugía bariátrica</small></li>
+<li><strong>Balón Gástrico</strong><small>Alternativa endoscópica</small></li>
+<li><strong>Bypass Metabólico</strong><small>Cirugía bariátrica y metabólica</small></li>
+<li><strong>Cirugía de Revisión</strong><small>Para pacientes que ya se operaron y requieren una nueva valoración</small></li>
+</ul>
 </div>
 <p class="disclaimer">La indicación de cualquier procedimiento requiere valoración médica individualizada.</p>
+<div class="procedures-cta"><a class="button button-primary" href="https://amisraeljai1967-alt.github.io/rumbaut-sasi/" target="_blank" rel="noopener">Agenda tu valoración <span>→</span></a></div>
 </section>
 
 <section class="final-cta">
